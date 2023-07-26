@@ -12,9 +12,9 @@ Once you install 3rd party Identity Provider, following Aura component is a work
 1. Customer is aware on how to use Service Cloud Voice.
 2. Customer is configuring 3rd party Identity provider with Salesforce service cloud voice using Amazon Connect Telephony.
 3. Customer is aware on how to use SFDX project and deploy lightning component code into the Salesforce org.
-4. Customer is going to modify 
-    A) `urlToLogin` variable in the `AmazonConnectInitializerController.js` which will launch a SAML SSO flow for amazon connect.
-    B) `statusId` variable in the `AmazonConnectInitializerController.js` which will use customer org's Omni presence status ID to use for the Omni login.
+4. Customer is going to modify
+    - `urlToLogin` variable in the `AmazonConnectInitializerController.js` which will launch a SAML SSO flow for amazon connect.
+    - `statusId` variable in the `AmazonConnectInitializerController.js` which will use customer org's Omni presence status ID to use for the Omni login.
 
 ## Configure Your Salesforce DX Project
 
