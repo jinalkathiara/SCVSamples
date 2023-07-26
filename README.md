@@ -1,10 +1,10 @@
 # Setting up 3rd party Identity Provider
 
 Follow the instructions here: https://salesforce.quip.com/s7zFAmozU3aG
-Once you install 3rd party Identity Provider, following Aura component is a workaround until Salesforce supports 3rd party Identity provider from its platform. Until then you can 
+Once you install 3rd party Identity Provider, following Lightning component is a workaround until Salesforce supports 3rd party Identity provider from its platform. Until then 
 - Install this Lightning Component
-- Create a presence status, say 'Not_Ready' in the Salesforce org and mark it as a 'Busy' type.
-- Assign this presence status to all the agent's permission sets.
+- Create an Omni presence status, say 'Not_Ready' in the Salesforce org and mark it as a 'Busy' type.
+- Assign this Omni presence status to all the agent's permission sets.
 - Add `AmazonConnectInitializer` component to the Utility bar for the Salesforce lightning application which you agents are using and keep it running automatically.
 - Login into Amazon Connect using 3rd party Identity Provider via launching a custom window from this component and dispose that window once you login into amazon connect.
 
